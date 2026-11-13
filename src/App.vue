@@ -1,7 +1,7 @@
 <script>
-import Contact from "@components/Contact.vue"
-import Backlog from "@components/Backlog.vue"
-import News from "@components/News.vue"
+import {RouterLink, RouterView} from "vue-router"
+
+
 
 </script>
 
@@ -10,14 +10,10 @@ import News from "@components/News.vue"
 <template>
   <div id="topBar">
     <nav id ="navBar">
-      <ul>
-        <li><a src="">Home</a></li>
-        <li><a src="">News</a></li>
-        <li><a src="">Backlog</a></li>
-        <li><a src="">Contact Us!</a></li>
-      </ul>
-
-
+   <RouterLink to="/">Home</RouterLink>
+<RouterLink to="/contact">Contact Us</RouterLink>
+      <RouterLink to="/backlog">Backlog</RouterLink>
+<RouterView/>
 
     </nav>
 
