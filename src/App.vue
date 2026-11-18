@@ -1,19 +1,13 @@
-<script>
-import {RouterLink, RouterView} from "vue-router"
-
+<script setup>
+import "@/assets/main.css"
+import footer from "@/components/footer.vue"
+import topnav from "@/components/topnav.vue"
 </script>
 
 
 <template>
   <body>
-  <div class="topBar">
-    <h1><em>GameTalk</em></h1>
-    <RouterLink to="/">Home</RouterLink>
-    <RouterLink to="/contact">Contact Us</RouterLink>
-    <RouterLink to="/backlog">Backlog</RouterLink>
-    <RouterView/>
-
-  </div>
+  <topnav/>
     <h1>Featured: </h1>
     <p>Sort By: </p>
 
@@ -44,85 +38,12 @@ import {RouterLink, RouterView} from "vue-router"
   </div>
   </div>
 
-<footer>
-  <div class="footer">
-
-    </div>
-</footer>
+<footer/>
   </body>
 
 </template>
 
 <style>
-body{
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  max-width: 100%;
-  display: block;
-}
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 300px;
-  gap: 30px;
-  width: 90%;
-  margin: 20px auto;
-}
-.topBar{
-  background-color:#E67B7B;
-  height:100px;
-  display:flex;
-  padding:10px;
-  box-sizing: border-box;
-  align-items: center;
-  gap: 20px;
-  width: 100vw;
-  top: 0;
-  left: 0;
-}
 
-
-.sideBox{
-  background-color: #c98970;
-  padding: 20px;
-  width: 300px;
-}
-.side{
-  height:300px;
-  width:300px;
-  background-color:#E67B7B;
-  display:flex;
-  flex-direction:column;
-  border-radius:40px;
-  align-items: center;
-}
-.side img{
-  height:40%;
-  width:40%;
-  border-radius:40px;
-}
-
-
-.mainBox{
-  background-color:#E67B7B;
-  display:flex;
-  height:300px;
-border-radius:40px;
-}
-
-
-.mainBox img{
-
-
-}
-
-footer{
-  background-color: #E67B7B;
-position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 60px
-}
 
   </style>
