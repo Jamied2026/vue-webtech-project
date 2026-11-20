@@ -8,7 +8,6 @@ import {RouterLink, RouterView} from "vue-router"
     <RouterLink to="/">Home</RouterLink>
     <RouterLink to="/contact">Contact Us</RouterLink>
     <RouterLink to="/backlog">Backlog</RouterLink>
-    <RouterView/>
 
   </div>
 </template>
