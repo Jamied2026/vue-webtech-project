@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import "@/assets/main.css"
+import "@/assets/css/main.css"
 </script>
 
 <template>
-  <h2>GTA 6 Fans Think a Beloved Legacy Character from a Previous Game Is Hiding in the Latest Trailer
-  Return of the king?</h2>
-<
+  <h2>GTA 6 Fans Think a Beloved Legacy Character from a Previous Game Is Hiding in the Latest Trailer</h2>
+  <h3>Return of the king?</h3>
+  <img src ="../../assets/images/gtaImg.png" alt="viceCity">
   <h3>Updated: Nov 11, 2026 7:51pm GMT</h3>
   <p>The most recent GTA 6 trailer has many people wondering if an iconic character from a previous game in the franchise is making a return.
   In the latest GTA 6 trailer, released yesterday to announce pre-loads, a character in a blue tank top and bulky black glasses is seen saying, "Oh, it is so on now." This is seemingly the first time we've seen this mystery character in GTA 6, and there may be a reason for that. Some fans believe this is an older and slightly chubbier Tony Prince (AKA Gay Tony). The character made his debut in GTA 4 and appeared in both DLCs, but was the focus of The Ballad of Gay Tony expansion. In that story, players filled the shoes of Luis, Tony's right-hand man. Tony Prince was a prominent nightclub owner in Liberty City, but he has since bounced around.
@@ -15,5 +15,13 @@ import "@/assets/main.css"
 </template>
 
 <style scoped>
+h2{
+  font-size: 28px;
 
+}
+img{
+  max-height:40%;
+  max-width:40%;
+
+}
 </style>

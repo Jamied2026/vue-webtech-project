@@ -1,14 +1,15 @@
 <script setup lang="ts">
-import "@/assets/main.css"
+import "@/assets/css/main.css"
 </script>
 
 <template>
 
   <h1>Legend of Zelda Ocarina of time Remake Review</h1>
-  <p>The Legend of Zelda: Ocarina of Time remake gives Link's first 3D adventure a new coat of paint, but some of its details have players second-guessing the reality they thought they once knew.
+  <h3>The Legend of Zelda: Ocarina of Time remake gives Link's first 3D adventure a new coat of paint, but some of its details have players second-guessing the reality they thought they once knew.</h3>
+  <img src ="../../assets/images/ootReview.jpg" alt="dekuTree">
+  <p>
   You don't have to be a Zelda expert to know what fairies look like in the original Ocarina of Time. Navi is an icon, which means most people who have ever even thought about touching one of the games in Nintendo's beloved fantasy franchise know that Link's little guide is little more than a glowing ball with wings – or so they thought.
   The Legend of Zelda: Ocarina of Time brought more than just a fancy new tunic for Link when it made the leap to Switch 2 last week. A few close-up shots early in the adventure make one shocking fact clear: The fairies of Kokiri Forest aren't orbs of light – they're fuzzy.
-  The Legend of Zelda: Ocarina of Time Fairies Are Fuzzy. Image courtesy of Nintendo/Captured by IGN.
   It's the kind of detail the original Nintendo 64 release could have never conveyed made real thanks to the artists at Nintendo and the power of the Switch 2. It's about as small as details come but also recontextualizes how many – myself included – have viewed Ocarina of Time's fairies for the last 28 years.
   "It appears Fairies are just...Fluffy Balls that emit a light!" one Reddit user said. "It's neither a ball of pure light or a humanoid lil person hidden under a glow. Just...Fluff! Interesting :D And cute!"
   "Answering the important lore questions like 'is that a sentient puffball or a tiny lady who's so shiny you can only see her aura,'" another fan commented.
@@ -25,5 +26,13 @@ import "@/assets/main.css"
 </template>
 
 <style scoped>
+h2{
+  font-size: 28px;
 
+}
+img{
+  max-height:40%;
+  max-width:40%;
+
+}
 </style>

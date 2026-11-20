@@ -5,9 +5,11 @@ import News from "../views/News.vue"
 import Contact from "../views/Contact.vue"
 import Home from "../views/home.vue"
 
-//Articles
+//Articles on home page
 import ootReview from "../views/articles/ootReview.vue"
 import gtaOpinion from "../views/articles/gta6.vue"
+
+//Articles for news page
 
 
 const routes = [

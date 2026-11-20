@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import "@/assets/main.css"
-import footer from "@/components/footer.vue"
-import topnav from "@/components/topnav.vue"
+import "@/assets/css/main.css"
+import footer from "@/components/navBars/footer.vue"
+import topnav from "@/components/navBars/topnav.vue"
 </script>
 
 <template>
