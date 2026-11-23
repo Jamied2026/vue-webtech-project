@@ -14,6 +14,14 @@ body{
   width: 90%;
   margin: 20px auto;
 }
+.newsGrid{
+  display:grid;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  gap:6px;
+  margin-left:0;
+  overflow:hidden;
+  justify-content: start;
+}
 .topBar{
   background-color:#E67B7B;
   height:100px;
@@ -108,5 +116,18 @@ button {
   transition: background-color 0.2s ease;
   background: #F6ADAD;
 }
+.newsMainBox{
+  background-color:#E67B7B;
+  height:200px;
+  border-radius:40px;
+  display:flex;
+}
+.newsMainBox img{
+  border-top-left-radius:40px;
+  border-bottom-left-radius:40px;
+
+}
+
+
 
 

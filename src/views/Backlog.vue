@@ -5,8 +5,8 @@ import topnav from "@/components/navBars/topnav.vue"
 </script>
 
 <template>
-<h2>Backlog:</h2>
-
+<h1>Backlog:</h1>
+<h2>Articles you saved will appear here.</h2>
 
 </template>
 

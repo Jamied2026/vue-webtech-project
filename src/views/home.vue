@@ -8,7 +8,6 @@ import topnav from "@/components/navBars/topnav.vue"
 <template>
 
   <h1>Featured: </h1>
-  <p>Sort By: </p>
 
   <div class="grid">
     <div class="mainBox">
@@ -36,7 +35,7 @@ import topnav from "@/components/navBars/topnav.vue"
     </div>
 
     <div class="side">
-      <h2>View My Reviews</h2>
+      <h2>View My Comments</h2>
       <img src="../assets/images/chat.png" alt="comment Bubble">
     </div>
   </div>
