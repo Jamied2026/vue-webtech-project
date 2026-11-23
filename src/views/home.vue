@@ -22,7 +22,8 @@ import topnav from "@/components/navBars/topnav.vue"
 
     <div class="side">
       <h2>View My Backlog</h2>
-      <RouterLink to="/backlog"><img src="../assets/images/next.png" alt="next"></RouterLink>
+ <img src="../assets/images/next.png" alt="next">
+<!-- <RouterLink to="/backlog"><img src="../assets/images/next.png" alt="next"></RouterLink>-->
     </div>
 
     <div class="mainBox">
@@ -33,6 +34,7 @@ import topnav from "@/components/navBars/topnav.vue"
         <RouterLink to ="/gtaOpinion">Read More:</RouterLink>
       </div>
     </div>
+
     <div class="side">
       <h2>View My Reviews</h2>
       <img src="../assets/images/chat.png" alt="comment Bubble">

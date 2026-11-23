@@ -5,11 +5,9 @@ import topnav from "@/components/navBars/topnav.vue"
 </script>
 
 <template>
-<body>
-<topnav/>
-<footer/>
+<h2>Backlog:</h2>
 
-</body>
+
 </template>
 
 <style scoped>
