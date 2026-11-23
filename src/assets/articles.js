@@ -1,17 +1,101 @@
 import { computed, readonly, ref } from "vue";
+import ootImg from "./images/ootReview.jpg";
+import gtaImg from "./images/gtaImg.png";
+import pirateImg from "./images/article1.png";
+import gta6 from "./images/gta6.png";
 
 export const initialArticles = [
-    { id: 1, name: 'Ocarina of time Review', minutes: 5, category: 'Review', path: '/ootReview', completed: false },
+    {
+        id: 1,
+        name: 'Ocarina of time review',
+        minutes: 5,
+        category: 'Review',
+        path: '/ootReview',
+        image: ootImg,
+        alt: 'Deku Tree',
+        completed: false
+    },
     {
         id: 2,
-        name: 'GTA 6 Fans Think a Beloved Legacy Character from a Previous Game Is Hiding in the Latest Trailer',
+        name: 'GTA 6 Possible Returnee?',
         minutes: 2,
         category: 'News',
         path: '/gtaOpinion',
+        image: gtaImg,
+        alt: 'Vice City',
         completed: false
     },
-    { id: 3, name: 'Pirate Token odds Revealed', minutes: 5, category: 'Opinions', path: '/pirate', completed: false }
-]
+    {
+        id: 3,
+        name: 'Pirate Token odds Revealed',
+        minutes: 1,
+        category: 'Opinions',
+        path: '/pirate',
+        image: pirateImg,
+        alt: 'Pirate Token',
+        completed: false
+    },
+    {
+        id: 4,
+        name: 'Gta 6 Review',
+        minutes: 10,
+        category: 'Review',
+        path: '/gtaReview',
+        image: gta6,
+        alt: "Gta6",
+        completed: false
+    },
+    {
+        id: 5,
+        name: 'Pirate Token odds Revealed',
+        minutes: 1,
+        category: 'Opinions',
+        path: '/pirate',
+        image: pirateImg,
+        alt: 'Pirate Token',
+        completed: false
+    },
+    {
+        id: 6,
+        name: 'Pirate Token odds Revealed',
+        minutes: 1,
+        category: 'Opinions',
+        path: '/pirate',
+        image: pirateImg,
+        alt: 'Pirate Token',
+        completed: false
+    },
+    {
+        id: 7,
+        name: 'Pirate Token odds Revealed',
+        minutes: 1,
+        category: 'Opinions',
+        path: '/pirate',
+        image: pirateImg,
+        alt: 'Pirate Token',
+        completed: false
+    },
+    {
+        id: 8,
+        name: 'Pirate Token odds Revealed',
+        minutes: 1,
+        category: 'Opinions',
+        path: '/pirate',
+        image: pirateImg,
+        alt: 'Pirate Token',
+        completed: false
+    },
+    {
+        id: 9,
+        name: 'Pirate Token odds Revealed',
+        minutes: 1,
+        category: 'Opinions',
+        path: '/pirate',
+        image: pirateImg,
+        alt: 'Pirate Token',
+        completed: false
+    }
+    ]
 
 const articles = ref(initialArticles.map(item => ({ ...item })))
 let nextId = Math.max(0, ...articles.value.map(item => item.id)) + 1
@@ -42,7 +126,16 @@ function saveArticle(id, rawName, rawMinutes, rawCategory) {
     }
 
     if (id === null) {
-        articles.value.push({ id: nextId++, name, minutes, category, path: '/', completed: false })
+        articles.value.push({
+            id: nextId++,
+            name,
+            minutes,
+            category,
+            path: '/',
+            image: pirateImg,
+            alt: name,
+            completed: false
+        })
     } else {
         const existingArticle = articles.value.find(item => item.id === id)
         if (!existingArticle) return 'This article is no longer available.'
