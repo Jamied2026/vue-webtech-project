@@ -8,8 +8,9 @@ import Home from "../views/home.vue"
 //Articles on home page
 import ootReview from "../views/articles/ootReview.vue"
 import gtaOpinion from "../views/articles/gta6.vue"
+import pirate from "../views/articles/token.vue"
 
-//Articles for news page
+
 
 
 const routes = [
@@ -17,8 +18,10 @@ const routes = [
     { path: "/news", component: News },
     { path: "/backlog", component: Backlog },
     { path: "/contact", component: Contact },
+    //Articles for news page
     {path: "/ootReview", component: ootReview},
-    {path: "/gtaOpinion", component: gtaOpinion}
+    {path: "/gtaOpinion", component: gtaOpinion},
+    {path: "/pirate", component: pirate}
 ]
 
 export const router = createRouter({

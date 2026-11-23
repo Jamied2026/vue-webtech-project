@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import "@/assets/css/main.css"
-import {ref} from "vue"
 import likes from"@/components/reactive/like.vue"
 </script>
 
