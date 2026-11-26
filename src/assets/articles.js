@@ -3,6 +3,8 @@ import ootImg from "./images/ootReview.jpg";
 import gtaImg from "./images/gtaImg.png";
 import pirateImg from "./images/article1.png";
 import gta6 from "./images/gta6.png";
+import personaImg from "./images/personaImg.jpg"
+import eldenRingimg from "./images/eldenRingimg.png"
 
 export const initialArticles = [
     {
@@ -47,54 +49,25 @@ export const initialArticles = [
     },
     {
         id: 5,
-        name: 'Pirate Token odds Revealed',
-        minutes: 1,
-        category: 'Opinions',
-        path: '/pirate',
-        image: pirateImg,
-        alt: 'Pirate Token',
+        name: 'Persona 5 Royal Review',
+        minutes: 10,
+        category: 'Review',
+        path: '/Royal',
+        image: personaImg,
+        alt: 'persona',
         completed: false
     },
     {
         id: 6,
-        name: 'Pirate Token odds Revealed',
-        minutes: 1,
-        category: 'Opinions',
-        path: '/pirate',
-        image: pirateImg,
-        alt: 'Pirate Token',
+        name: 'Elden ring Movie update',
+        minutes: 3,
+        category: 'News',
+        path: '/elden',
+        image: eldenRingimg,
+        alt: 'Erdtree',
         completed: false
     },
-    {
-        id: 7,
-        name: 'Pirate Token odds Revealed',
-        minutes: 1,
-        category: 'Opinions',
-        path: '/pirate',
-        image: pirateImg,
-        alt: 'Pirate Token',
-        completed: false
-    },
-    {
-        id: 8,
-        name: 'Pirate Token odds Revealed',
-        minutes: 1,
-        category: 'Opinions',
-        path: '/pirate',
-        image: pirateImg,
-        alt: 'Pirate Token',
-        completed: false
-    },
-    {
-        id: 9,
-        name: 'Pirate Token odds Revealed',
-        minutes: 1,
-        category: 'Opinions',
-        path: '/pirate',
-        image: pirateImg,
-        alt: 'Pirate Token',
-        completed: false
-    }
+
     ]
 
 const articles = ref(initialArticles.map(item => ({ ...item })))

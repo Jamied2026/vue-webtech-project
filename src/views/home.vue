@@ -7,7 +7,8 @@ import topnav from "@/components/navBars/topnav.vue"
 
 <template>
 
-  <h1>Featured: </h1>
+  <h1>Welcome! </h1>
+  <h2>This weeks featured articles:</h2>
 
   <div class="grid">
     <div class="mainBox">

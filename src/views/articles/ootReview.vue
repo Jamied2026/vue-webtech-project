@@ -9,6 +9,7 @@ import likes from"@/components/reactive/like.vue"
   <h3>The Legend of Zelda: Ocarina of Time remake gives Link's first 3D adventure a new coat of paint, but some of its details have players second-guessing the reality they thought they once knew.</h3>
   <img src ="../../assets/images/ootReview.jpg" alt="dekuTree">
   <likes/>
+  <hr>
   <p>
   You don't have to be a Zelda expert to know what fairies look like in the original Ocarina of Time. Navi is an icon, which means most people who have ever even thought about touching one of the games in Nintendo's beloved fantasy franchise know that Link's little guide is little more than a glowing ball with wings – or so they thought.
   The Legend of Zelda: Ocarina of Time brought more than just a fancy new tunic for Link when it made the leap to Switch 2 last week. A few close-up shots early in the adventure make one shocking fact clear: The fairies of Kokiri Forest aren't orbs of light – they're fuzzy.
@@ -28,9 +29,15 @@ import likes from"@/components/reactive/like.vue"
 </template>
 
 <style scoped>
-h2{
-  font-size: 28px;
-
+h1{
+  font-size: 40px;
+font-family: Calibri;
+  font-weight: 700;
+}
+h3{
+  font-size: 20px;
+  font-family: Calibri;
+  font-weight: 600;
 }
 img{
   max-height:40%;
