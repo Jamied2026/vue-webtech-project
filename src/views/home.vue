@@ -21,10 +21,20 @@ import topnav from "@/components/navBars/topnav.vue"
     </div>
 
     <div class="side">
-      <h2>View My Backlog</h2>
- <img src="../assets/images/next.png" alt="next">
-<!-- <RouterLink to="/backlog"><img src="../assets/images/next.png" alt="next"></RouterLink>-->
+      <h2>Welcome!</h2>
+      <h3>On this site you will find</h3>
+      <ul>
+        <li>Gaming Reviews</li>
+        <li>Gaming Opinions</li>
+        <li>important Updates</li>
+      </ul>
+      <br>
+      <h3>We also have a form where you can suggest any features you wish to have added or if you just have feedback on how we can improve</h3>
+      <br>
+      <h3>Feel free to add a comment and interatct with the community!</h3>
     </div>
+
+
 
     <div class="mainBox">
       <img src ="../assets/images/gtaImg.png" alt="viceCity">
@@ -35,12 +45,7 @@ import topnav from "@/components/navBars/topnav.vue"
       </div>
     </div>
 
-    <div class="side">
-      <h2>View My Comments</h2>
-      <img src="../assets/images/chat.png" alt="comment Bubble">
-    </div>
   </div>
-
 
 </template>
 

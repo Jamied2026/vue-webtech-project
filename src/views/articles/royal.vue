@@ -1,11 +1,12 @@
-<script setup lang="ts">
-
+<script setup lang="js">
+import commentView from "@/components/reactive/commentView.vue"
+import likes from "@/components/reactive/like.vue"
 </script>
 
 <template>
  <h1> Persona 5 Review</h1>
-  <h2>A strong story and tremendous sense of style make this the best entry in the series yet.</h2>
-
+  <h3>A strong story and tremendous sense of style make this the best entry in the series yet.</h3>
+  <img src ="../../assets/images/personaImg.jpg" alt="p5">
 
   <p>In stark contrast to the slow burn of epic-length cutscenes that greet you in previous Persona games, Persona 5 starts its long journey with a bang by throwing you directly into a fast-paced foot chase through a vibrant, stylized Tokyo casino. That’s a bold move, and it’s emblematic of the entire experience. As we’re introduced to the complex yet approachable turn-based battle system in those opening moments, series fans will recognize not only returning systems from Persona 3 and 4, but also long-absent elements like ranged weapons and negotiation that haven’t been in a Persona game in over a decade, adding more depth and variety to combat. Persona 5 is the culmination of everything the JRPG series has been building to, with familiar elements dialed up to 11 and some welcome new surprises added into the mix.In what’s by far the series’ strongest story to date, Persona 5 puts you in the capable shoes of a high school student who spends his evenings saving the world. By day, you’ll attend class, answer quiz questions, and live the life of a typical teenager, but after school you'll see the clever concept of invading the minds of corrupt adults who are up to no good and battling psychological demons in order to change their hearts.
   These stand-out dungeons take place in “palaces” created within the mind of each target, and Atlus takes advantage of this to set them in diverse and outlandish places. Unlike the procedurally generated halls of Persona 3’s Tartarus or Persona 4’s Midnight Channel, Persona 5’s labyrinths are fully hand-built and feature unique puzzles and mechanics that vary with the theme of each dungeon and never repeat. A museum, for example, has very different security measures than a Medieval castle, and you’ll find very different enemies in a pyramid than you might in a spaceship. Assembling pieces of secret codes to solve a bank vault’s cryptogram or positioning tiles to interpret hieroglyphics feel almost like entirely different games. This gives each palace a sense of identity tied to the target and provides some smart, unpredictable story moments and challenges.
@@ -53,8 +54,17 @@
 
   Verdict
   Persona 5 is a massive, gorgeous JRPG with well over 100 hours of gameplay for completionists. With more to do than ever and the series’ strongest story to date, it stands out as an extraordinary, memorable experience and easily one of the deepest JRPGs of the last decade. Its sprawling dungeon design and stylish, fully realized world are an absolute joy to explore, and even after three playthroughs and the Platinum trophy, I find myself itching to go back to try different dialogue options with Confidants or revisit particularly fun puzzles. This is a new gold standard for Japanese RPGs and by far the best entry in the series yet.</p>
+<commentView/><likes/>
 </template>
 
 <style scoped>
+h2{
+  font-size: 28px;
 
+}
+img{
+  max-height:40%;
+  max-width:40%;
+
+}
 </style>

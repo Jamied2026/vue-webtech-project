@@ -1,10 +1,12 @@
-<script setup lang="ts">
-
+<script setup lang="js">
+import commentView from "@/components/reactive/commentView.vue"
+import likes from "@/components/reactive/like.vue"
 </script>
 
 <template>
 <h1>Grand Theft Auto 6 Review</h1>
-  <h2>Unprecedented. Unbelievable. Unmissable.</h2>
+  <h3>Unprecedented. Unbelievable. Unmissable.</h3>
+  <img src ="../../assets/images/gta6.png" alt="6">
   <p>During my first dozen-or-so hours with Grand Theft Auto 6, I fixed my leaky roof, collected some rum from a shady liquor store, played way too many games of pool, read a book about World War 2 soldiers with a penchant for teabagging, and caught a lot of fish. On the more ridiculous end of the spectrum, I also temporarily… borrowed a luxury yacht called Party on the Poop Deck before running it aground and drinking its owner’s beer, slapped the crap out of a bloke who cursed at me, found a finger in my horniest neighbour’s plumbing, threatened an alligator wearing a hat, and got mugged by a drunk sea captain with a harpoon gun – before stealing his weapon while he peed in a garden.
   Over 100 hours later, I’ve now completely lost track of all the things I’ve seen and done within GTA 6’s astounding open world – and I see no real limit to the amount of time I could spend here, endlessly exploring and interacting with Vice City and the massive area surrounding it. While the well-paced story effectively nudged me around the map, there are still vast sections of it that I’m yet to even visit – despite hitting the credits after almost 120 hours of hijinks. Frankly, I’ve never played anything that’s hit quite like GTA 6 – and right now I have zero plans to stop playing it.
 
@@ -98,8 +100,18 @@
   There is no longer a radar showing the location of approaching cops, and I haven’t missed it once. Not knowing where the police could be turns evasion into a whole new and more organic experience, where the focus is on scanning the actual world in front of you for threats rather than spending most of your time looking at the minimap. That is, you’re no longer just trying to choose the right streets to leave a hot zone, like Pac-Man trying to route away from the nearest ghosts. You’re listening to the scanner for hints about what the cops know. You’re eyeballing the traffic in the distance, trying to figure out if any of them are police cruisers. It’s knowing when and where to stay out of view entirely, and when it’s safe for you to hide in plain sight. That’s a far bigger thrill.
   Verdict
   As optimistic as I was about a new GTA built in the wake of everything Rockstar learnt from the majestic Red Dead Redemption 2, I was simply not ready for just how much richer, deeper, and more satisfying Grand Theft Auto 6 has proven to be. After three weeks and over 120 hours playing it, I’m still hopelessly hooked, absorbing the world at walking speed like a tourist in a new town. I’m dazed by just how consistently I find myself noticing a new animation, unique pedestrian, or standout vehicle. I am completely enamoured with its series-best car handling and weaving through the realistically dense traffic. I am smitten with its spark-filled shootouts, potent explosions, and the brutal consequences of high-calibre exchanges. I am floored at how outright gorgeous the entire map is from any distance, and I am utterly gobsmacked at how beautifully lit it is at all times – especially dawn, dusk, and the dead of night. Exquisitely detailed, endlessly ripe for experimentation, and uncompromisingly engineered, GTA 6 has not stopped astonishing me since I started it. I regularly find myself in love with video games, but it’s extraordinarily rare that I find myself in complete awe of them. Put simply, Grand Theft Auto 6 is the single most impressive video game I have ever played. </p>
+  <commentView/>
+  <likes/>
 </template>
 
 <style scoped>
+h2{
+  font-size: 28px;
 
+}
+img{
+  max-height:40%;
+  max-width:40%;
+
+}
 </style>

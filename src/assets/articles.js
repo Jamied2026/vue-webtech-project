@@ -67,6 +67,16 @@ export const initialArticles = [
         alt: 'Erdtree',
         completed: false
     },
+    {
+        id: 7,
+        name: 'Test',
+        minutes: 3,
+        category: 'News',
+        path: '/elden',
+        image: null,
+        alt: 'Erdtree',
+        completed: false
+    },
 
     ]
 

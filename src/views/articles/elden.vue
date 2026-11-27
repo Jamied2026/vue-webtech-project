@@ -1,10 +1,13 @@
-<script setup lang="ts">
-
+<script setup lang="js">
+import commentList from "@/components/reactive/commentList.vue"
+import likes from "@/components/reactive/like.vue"
 </script>
 
 <template>
+
   <h1>Elden Ring Movie Officially Wraps Filming as Producers Thank Crew for 'Bringing Unique Project to Life'</h1>
- <h2> The film is scheduled to release in March 2028.</h2>
+ <h3> The film is scheduled to release in March 2028.</h3>
+  <img src ="../../assets/images/eldenRingimg.png" alt="erdtree">
 
   <p>Production has officially wrapped for A24’s Elden Ring movie, as revealed in a now-deleted Instagram post from prop artist Sean Schofield.
 
@@ -37,8 +40,18 @@
 
 
   A24’s Elden Ring cast includes stars like Nick Offerman, Havana Rose Liu, Jonathan Pryce, Peter Serafinowicz, Cailee Spaeny, with a reported budget of more than $100 million. The arthouse studio is sparing no expense for this flick, and we can't wait to see how they tackle the Lands Between come March 2028.</p>
-</template>
+ <commentList/>
+  <likes/></template>
 
 <style scoped>
+h2{
+  font-size: 28px;
+
+}
+img{
+  max-height:40%;
+  max-width:40%;
+
+}
 
 </style>

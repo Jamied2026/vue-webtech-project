@@ -1,6 +1,7 @@
-<script setup lang="ts">
+<script setup lang="js">
 import "@/assets/css/main.css"
 import likes from"@/components/reactive/like.vue"
+import commentView from "@/components/reactive/commentView.vue"
 </script>
 
 <template>
@@ -8,7 +9,7 @@ import likes from"@/components/reactive/like.vue"
   <h1>Legend of Zelda Ocarina of time Remake Review</h1>
   <h3>The Legend of Zelda: Ocarina of Time remake gives Link's first 3D adventure a new coat of paint, but some of its details have players second-guessing the reality they thought they once knew.</h3>
   <img src ="../../assets/images/ootReview.jpg" alt="dekuTree">
-  <likes/>
+
   <hr>
   <p>
   You don't have to be a Zelda expert to know what fairies look like in the original Ocarina of Time. Navi is an icon, which means most people who have ever even thought about touching one of the games in Nintendo's beloved fantasy franchise know that Link's little guide is little more than a glowing ball with wings – or so they thought.
@@ -26,6 +27,7 @@ import likes from"@/components/reactive/like.vue"
   Boundary Break host Shesez, who offers out-of-bounds perspectives on video games, got up close and personal with The Legend of Zelda: Ocarina of Time's creepiest enemies: the ReDeads. In the N64 game, these mummified zombie grapplers were scary enough thanks to their empty eye sockets. On Switch 2, they still look eyeless – at least at a first glance. Get close (but not too close) enough for a good look, zoom in, and you'll see the developers were nice enough to give ReDead's soulless eyeballs behind their masks. Thanks, Nintendo!
   "That's 100% human skull behind that mask," one person said.
   The Legend of Zelda: Ocarina of Time remake launched last week for Switch 2 and has been picked apart (complimentary) by the internet in just a few days. Dataminers have found potential hints for what could be some exciting new content. Speedrunners have found some game-changing glitches that have produced some hilarious results.</p>
+  <commentView/><likes/>
 </template>
 
 <style scoped>

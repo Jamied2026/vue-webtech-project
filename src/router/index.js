@@ -19,7 +19,6 @@ const routes = [
     //top bar
     {path:"/", component: Home},
     { path: "/news", component: News },
-    { path: "/backlog", component: Backlog },
     { path: "/contact", component: Contact },
 
     //Articles for news page
